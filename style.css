@@ -1,0 +1,52 @@
+body{
+    background: black;
+    background: url("https://www.worldpianonews.com/wp-content/uploads/2018/05/tsunamipiano-in-gym2.jpg") top no-repeat;
+    background-size: cover;
+
+}
+.container {
+    margin: 400px auto;
+    height: 100px;
+    text-align: center;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    height: 125px;
+    width: 50px;
+    padding-top: 120px;
+    margin-right: -6px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.black-keys kbd {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 30px;
+    top: -193px;
+    padding-top: 54px;
+    margin-top: -300px;
+    background-color: black;
+    color: white;
+}
+.black-keys #W {
+    right: 54px;
+}
+
+.black-keys #E {
+    right: 37px;
+}
+
+.black-keys #T {
+    left: 27px;
+}
+
+.black-keys #Y {
+    left: 45px;
+}
+
+.black-keys #U {
+    left: 60px;
+}
